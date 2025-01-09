@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.container {
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+.post-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-item {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.post-link:hover {
+    text-decoration: underline;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.post-detail {
+    margin-bottom: 20px;
+}
+
+.post-content {
+    margin: 20px 0;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #999;
+}
+
+.post-actions {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3D9B69;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #3D9B69;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #317E55;
+}
+
+.btn-primary a {
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-cancel {
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}Mini Blog - Apagar{% endblock %}
+
+{% block content %}
+<h1>Apagar</h1>
+<p>Você tem certeza que deseja deletar o post "{{ post.title }}"?</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Sim, deletar</button>
+</form>
+<a href="{% url 'post_list' %}" class="btn btn-secondary">Cancelar</a>
+{% endblock %}
